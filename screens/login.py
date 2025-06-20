@@ -1,4 +1,3 @@
-# screens/login_screen.py
 import tkinter as tk
 
 USERNAME = "admin"

@@ -1,4 +1,3 @@
-# screens/dashboard_screen.py
 import tkinter as tk
 
 class SignupScreen(tk.Frame):
