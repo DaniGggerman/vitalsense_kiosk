@@ -44,7 +44,7 @@ class KioskApp(tk.Tk):
     def show_page3(self):
         if self.current_screen:
             self.current_screen.destroy()
-        self.current_screen = Page3Screen(self, self.show_page4)
+        self.current_screen = Page3Screen(self, self.show_page4, self.show_page2)
 
     def show_page4(self):
         if self.current_screen:
